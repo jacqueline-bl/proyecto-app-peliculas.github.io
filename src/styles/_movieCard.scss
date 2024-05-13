@@ -1,0 +1,52 @@
+
+
+.MovieZone{
+   
+    background: #4776E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+    
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,250px);
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 15px;
+
+    .MovieCard{
+        background-color:white ;
+        color: blue;   
+        border-radius: 5px;
+        list-style: none;
+        font-size: larger;
+        height:390px;
+        
+
+        .MovieTitle{
+            padding-top: 15px;
+            height: 45px;
+        }
+
+        .MovieImg{
+            border-radius: 15px;
+            width: 200px;
+            height: 300px;
+            
+        }
+
+    }
+}
+
+@media (max-widht:550px){
+
+    .MovieZone{
+        grid-template-columns: 20%;
+    }
+
+    .MovieImg{
+        width: 100%;
+        height: auto;
+    }
+
+}
