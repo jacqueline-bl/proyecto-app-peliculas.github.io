@@ -1,5 +1,6 @@
 
 function Search (){
+ 
    
       return (
         <div className="Search">
@@ -8,7 +9,7 @@ function Search (){
     
 
           <form className="MovieForm" >
-                <input type="text" placeholder="Nombre peli"/>
+                <input type="text" placeholder="Nombre peli" ></input>
                 <button>🔎</button>
           </form>
         </div>
